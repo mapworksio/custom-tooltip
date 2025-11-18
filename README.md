@@ -1,11 +1,22 @@
 # custom-tooltip
 Tutorial on how to customise the Mapworks tooltip.
 
-This includes a generic API key and an OSM base map. Please replace these if you wish to embed the map into your own application. 
+This uses anonymous session and an OSM base map. Please replace these if you
+wish to embed the map into your own application. 
 
-# Running the application
-To execute this in Chrome or Firefox, simply double click the map.html file. Due to security constraints in Internet Explorer and Edge, these files will need to be hosted by a web server.
+## Quick start
 
-# Resources
-For more information on Mapworks, please visit https://mapworks.io
+Run `npm install` to install all dependencies.
 
+Run `npm start` to start the development server with live reloading.
+
+Replace `client_id` in `src/index.js` with values specific to your
+environment/organisation.
+
+## Usage
+
+* Modify `src/custom.js` with all your custom JavaScript code.
+
+## License
+
+See `LICENSE`.

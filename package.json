@@ -1,0 +1,20 @@
+{
+  "name": "studio-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://github.com/mapworksio/Studio-Boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/mapworksio/Studio-Boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapworksio/Studio-Boilerplate.git"
+  },
+  "scripts": {
+    "start": "vite --port 8080"
+  },
+  "dependencies": {
+    "vite": "^7.2.2"
+  }
+}
